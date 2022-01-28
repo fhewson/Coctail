@@ -9,21 +9,59 @@
 /* Begin PBXBuildFile section */
 		5679E027272E769500B2708A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679E026272E769500B2708A /* AppDelegate.swift */; };
 		5679E029272E769500B2708A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679E028272E769500B2708A /* SceneDelegate.swift */; };
-		5679E02B272E769500B2708A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679E02A272E769500B2708A /* ViewController.swift */; };
 		5679E02E272E769500B2708A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5679E02C272E769500B2708A /* Main.storyboard */; };
 		5679E030272E769700B2708A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5679E02F272E769700B2708A /* Assets.xcassets */; };
 		5679E033272E769700B2708A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5679E031272E769700B2708A /* LaunchScreen.storyboard */; };
+		5696765E272E82340031B9A7 /* CocktailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696765D272E82340031B9A7 /* CocktailService.swift */; };
+		56967661272E86D00031B9A7 /* CocktailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967660272E86D00031B9A7 /* CocktailRepository.swift */; };
+		56967664272E89550031B9A7 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967663272E89550031B9A7 /* ListPresenter.swift */; };
+		56967666272E89650031B9A7 /* ListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967665272E89650031B9A7 /* ListProtocol.swift */; };
+		56967668272E89750031B9A7 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967667272E89750031B9A7 /* ListRouter.swift */; };
+		5696766A272E89850031B9A7 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967669272E89850031B9A7 /* ListInteractor.swift */; };
+		5696766C272E89980031B9A7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696766B272E89980031B9A7 /* ListViewController.swift */; };
+		5696766F272EA78A0031B9A7 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696766E272EA78A0031B9A7 /* Extension+UIViewController.swift */; };
+		56967672272EA8990031B9A7 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967671272EA8990031B9A7 /* Enums.swift */; };
+		56967675272F0FB90031B9A7 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967674272F0FB90031B9A7 /* R.generated.swift */; };
+		56967678272F12930031B9A7 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967677272F12930031B9A7 /* ListTableViewCell.swift */; };
+		5696767B272F1B380031B9A7 /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696767A272F1B380031B9A7 /* FilterProtocol.swift */; };
+		5696767D272F1E2B0031B9A7 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696767C272F1E2B0031B9A7 /* FilterViewController.swift */; };
+		5696767F272F1EB30031B9A7 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696767E272F1EB30031B9A7 /* FilterTableViewCell.swift */; };
+		56967681272F21210031B9A7 /* FilterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967680272F21210031B9A7 /* FilterRouter.swift */; };
+		56967683272F219D0031B9A7 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967682272F219D0031B9A7 /* FilterPresenter.swift */; };
+		56967685272F22E40031B9A7 /* FilterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967684272F22E40031B9A7 /* FilterInteractor.swift */; };
+		56967688272F30AE0031B9A7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56967687272F30AE0031B9A7 /* CustomButton.swift */; };
+		E22E1400386C17C27DC72867 /* Pods_cocktail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC2D44AA0DAF0D0029A0B2D /* Pods_cocktail.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1135B0E69A3D750A71EF2FD8 /* Pods-cocktail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktail.debug.xcconfig"; path = "Target Support Files/Pods-cocktail/Pods-cocktail.debug.xcconfig"; sourceTree = "<group>"; };
+		1BB660FE4B53A06871D2287D /* Pods-cocktail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocktail.release.xcconfig"; path = "Target Support Files/Pods-cocktail/Pods-cocktail.release.xcconfig"; sourceTree = "<group>"; };
 		5679E023272E769500B2708A /* cocktail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocktail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5679E026272E769500B2708A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5679E028272E769500B2708A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5679E02A272E769500B2708A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5679E02D272E769500B2708A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5679E02F272E769700B2708A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5679E032272E769700B2708A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5679E034272E769700B2708A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5696765D272E82340031B9A7 /* CocktailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailService.swift; sourceTree = "<group>"; };
+		56967660272E86D00031B9A7 /* CocktailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailRepository.swift; sourceTree = "<group>"; };
+		56967663272E89550031B9A7 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		56967665272E89650031B9A7 /* ListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocol.swift; sourceTree = "<group>"; };
+		56967667272E89750031B9A7 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		56967669272E89850031B9A7 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		5696766B272E89980031B9A7 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5696766E272EA78A0031B9A7 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		56967671272EA8990031B9A7 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		56967674272F0FB90031B9A7 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		56967677272F12930031B9A7 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		5696767A272F1B380031B9A7 /* FilterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
+		5696767C272F1E2B0031B9A7 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		5696767E272F1EB30031B9A7 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		56967680272F21210031B9A7 /* FilterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRouter.swift; sourceTree = "<group>"; };
+		56967682272F219D0031B9A7 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
+		56967684272F22E40031B9A7 /* FilterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterInteractor.swift; sourceTree = "<group>"; };
+		56967687272F30AE0031B9A7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EFC2D44AA0DAF0D0029A0B2D /* Pods_cocktail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocktail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22E1400386C17C27DC72867 /* Pods_cocktail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				5679E025272E769500B2708A /* cocktail */,
 				5679E024272E769500B2708A /* Products */,
+				769B47FF45EBF67E4C020812 /* Pods */,
+				643B5720C62D21A9BB617E44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,121 @@
 		5679E025272E769500B2708A /* cocktail */ = {
 			isa = PBXGroup;
 			children = (
+				56967674272F0FB90031B9A7 /* R.generated.swift */,
+				5679E034272E769700B2708A /* Info.plist */,
 				5679E026272E769500B2708A /* AppDelegate.swift */,
 				5679E028272E769500B2708A /* SceneDelegate.swift */,
-				5679E02A272E769500B2708A /* ViewController.swift */,
 				5679E02C272E769500B2708A /* Main.storyboard */,
-				5679E02F272E769700B2708A /* Assets.xcassets */,
 				5679E031272E769700B2708A /* LaunchScreen.storyboard */,
-				5679E034272E769700B2708A /* Info.plist */,
+				56967658272E81490031B9A7 /* User Stories */,
+				56967670272EA8760031B9A7 /* Common */,
+				56967657272E81040031B9A7 /* Resources */,
+				5696766D272EA75F0031B9A7 /* Extensions */,
 			);
 			path = cocktail;
+			sourceTree = "<group>";
+		};
+		56967657272E81040031B9A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5679E02F272E769700B2708A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56967658272E81490031B9A7 /* User Stories */ = {
+			isa = PBXGroup;
+			children = (
+				56967679272F1B1D0031B9A7 /* Filter */,
+				56967662272E89040031B9A7 /* List */,
+				5696765A272E81970031B9A7 /* Services */,
+			);
+			path = "User Stories";
+			sourceTree = "<group>";
+		};
+		5696765A272E81970031B9A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5696765F272E86A50031B9A7 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5696765F272E86A50031B9A7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5696765D272E82340031B9A7 /* CocktailService.swift */,
+				56967660272E86D00031B9A7 /* CocktailRepository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		56967662272E89040031B9A7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				56967669272E89850031B9A7 /* ListInteractor.swift */,
+				56967663272E89550031B9A7 /* ListPresenter.swift */,
+				56967665272E89650031B9A7 /* ListProtocol.swift */,
+				56967667272E89750031B9A7 /* ListRouter.swift */,
+				56967677272F12930031B9A7 /* ListTableViewCell.swift */,
+				5696766B272E89980031B9A7 /* ListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		5696766D272EA75F0031B9A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5696766E272EA78A0031B9A7 /* Extension+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56967670272EA8760031B9A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				56967686272F30920031B9A7 /* Components */,
+				56967671272EA8990031B9A7 /* Enums.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		56967679272F1B1D0031B9A7 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				56967684272F22E40031B9A7 /* FilterInteractor.swift */,
+				56967682272F219D0031B9A7 /* FilterPresenter.swift */,
+				5696767A272F1B380031B9A7 /* FilterProtocol.swift */,
+				56967680272F21210031B9A7 /* FilterRouter.swift */,
+				5696767E272F1EB30031B9A7 /* FilterTableViewCell.swift */,
+				5696767C272F1E2B0031B9A7 /* FilterViewController.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		56967686272F30920031B9A7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				56967687272F30AE0031B9A7 /* CustomButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		643B5720C62D21A9BB617E44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC2D44AA0DAF0D0029A0B2D /* Pods_cocktail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		769B47FF45EBF67E4C020812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1135B0E69A3D750A71EF2FD8 /* Pods-cocktail.debug.xcconfig */,
+				1BB660FE4B53A06871D2287D /* Pods-cocktail.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5679E037272E769700B2708A /* Build configuration list for PBXNativeTarget "cocktail" */;
 			buildPhases = (
+				16FD2B0E38EB9619E5E26D03 /* [CP] Check Pods Manifest.lock */,
+				56967673272F0EAA0031B9A7 /* ShellScript */,
 				5679E01F272E769400B2708A /* Sources */,
 				5679E020272E769400B2708A /* Frameworks */,
 				5679E021272E769400B2708A /* Resources */,
+				8AF3B5A521433CA6C826B4A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +283,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16FD2B0E38EB9619E5E26D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cocktail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56967673272F0EAA0031B9A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $ACTION != \"indexbuild\" ]; then\n  \"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\nfi\n";
+		};
+		8AF3B5A521433CA6C826B4A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocktail/Pods-cocktail-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocktail/Pods-cocktail-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cocktail/Pods-cocktail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5679E01F272E769400B2708A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5679E02B272E769500B2708A /* ViewController.swift in Sources */,
+				56967664272E89550031B9A7 /* ListPresenter.swift in Sources */,
+				56967668272E89750031B9A7 /* ListRouter.swift in Sources */,
 				5679E027272E769500B2708A /* AppDelegate.swift in Sources */,
+				56967661272E86D00031B9A7 /* CocktailRepository.swift in Sources */,
+				56967688272F30AE0031B9A7 /* CustomButton.swift in Sources */,
+				56967666272E89650031B9A7 /* ListProtocol.swift in Sources */,
+				5696766C272E89980031B9A7 /* ListViewController.swift in Sources */,
+				56967683272F219D0031B9A7 /* FilterPresenter.swift in Sources */,
 				5679E029272E769500B2708A /* SceneDelegate.swift in Sources */,
+				5696766A272E89850031B9A7 /* ListInteractor.swift in Sources */,
+				56967685272F22E40031B9A7 /* FilterInteractor.swift in Sources */,
+				56967681272F21210031B9A7 /* FilterRouter.swift in Sources */,
+				5696766F272EA78A0031B9A7 /* Extension+UIViewController.swift in Sources */,
+				5696767D272F1E2B0031B9A7 /* FilterViewController.swift in Sources */,
+				5696765E272E82340031B9A7 /* CocktailService.swift in Sources */,
+				56967672272EA8990031B9A7 /* Enums.swift in Sources */,
+				56967678272F12930031B9A7 /* ListTableViewCell.swift in Sources */,
+				5696767F272F1EB30031B9A7 /* FilterTableViewCell.swift in Sources */,
+				56967675272F0FB90031B9A7 /* R.generated.swift in Sources */,
+				5696767B272F1B380031B9A7 /* FilterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,18 +512,22 @@
 		};
 		5679E038272E769700B2708A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1135B0E69A3D750A71EF2FD8 /* Pods-cocktail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = REMGB9WZ5V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cocktail/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Coctails;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,24 +537,28 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5679E039272E769700B2708A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB660FE4B53A06871D2287D /* Pods-cocktail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = REMGB9WZ5V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cocktail/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Coctails;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +568,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
